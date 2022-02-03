@@ -1,0 +1,11 @@
+Determines the configuration of a scratch org, including which features and settings define its org shape. 
+You can create a configuration file that your whole dev team can share.
+- config/project-scratch-def.json
+
+Using the single responsibility design principle, we delegate the display of the search 
+results by firing an event that is handled by the Account Map and Account List components you create in later steps.
+Create the event in the aura folder
+sfdx force:lightning:event:create -n AccountsLoaded -d force-app/main/default/aura
+
+
+

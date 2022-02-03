@@ -1,0 +1,3 @@
+Determines the configuration of a scratch org, including which features and settings define its org shape. 
+You can create a configuration file that your whole dev team can share.
+- config/project-scratch-def.json
